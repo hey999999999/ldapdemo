@@ -5,8 +5,8 @@ const client = ldap.createClient({
   //url: 'ldap://localhost:389'
 });
 
-client.bind('cn=testid,ou=jiec,dc=localhost', 'O011069', function(err, data) {
-//client.bind('cn=root,dc=localhost', 'O011069', function(err) {
+//client.bind('cn=testid,ou=jiec,dc=localhost', 'O011069', function(err, data) {
+client.bind('cn=root,dc=localhost', 'O011069', function(err, data) {
   //assert.ifError(err);
   console.log(err, data);
   //client.unbind();
