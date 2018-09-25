@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/hey999999999/ldapdemo#readme",
   "dependencies": {
+    "ldapauth-fork": "^4.0.2",
     "ldapjs": "^1.0.2"
   }
 }
